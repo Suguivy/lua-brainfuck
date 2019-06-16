@@ -7,10 +7,10 @@ Simply run it with a Lua interpreter or the LuaJIT compiler. You can pass an arg
 ## Examples
 Running a file
 ```
-luajit lua-brainfuk <my_brainfuck_file.bf>
+luajit lua-brainfuck.lua <my_brainfuck_file>
 ```
 
 Running the interpreter and putting instructions line by line
 ```
-luajit lua-brainfuk
+luajit lua-brainfuck.lua
 ```
